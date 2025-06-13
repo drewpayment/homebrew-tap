@@ -2,7 +2,7 @@
 cask "gh-memory-bank" do
   desc "CLI tool to install GitHub Copilot Memory Bank templates"
   homepage "https://github.com/drewpayment/gh-memory-bank"
-  version "0.0.3"
+  version "0.0.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -11,18 +11,18 @@ cask "gh-memory-bank" do
   binary "gh-memory-bank"
 
   on_macos do
-    url "https://github.com/drewpayment/gh-memory-bank/releases/download/v0.0.3/gh-memory-bank_0.0.3_darwin_all.tar.gz"
-    sha256 "b22c7204f4a62493706f9314970e1c73c9b12888f904a582794ce15e029e7ec9"
+    url "https://github.com/drewpayment/gh-memory-bank/releases/download/v0.0.4/gh-memory-bank_0.0.4_darwin_all.tar.gz"
+    sha256 "f135075e5fddeef7778fc0523100e468477d423d6e12804d0c093b44d2abe7d3"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/drewpayment/gh-memory-bank/releases/download/v0.0.3/gh-memory-bank_0.0.3_linux_amd64.tar.gz"
-      sha256 "cf91283847ad43a4aacbafd090c951c64f8d723482959568b748a2dba94a880e"
+      url "https://github.com/drewpayment/gh-memory-bank/releases/download/v0.0.4/gh-memory-bank_0.0.4_linux_amd64.tar.gz"
+      sha256 "02445592b1d17d99e588bcc4cc3c8a9c10a1ddcb755023dde3095fb81cb94cfa"
     end
     on_arm do
-      url "https://github.com/drewpayment/gh-memory-bank/releases/download/v0.0.3/gh-memory-bank_0.0.3_linux_arm64.tar.gz"
-      sha256 "b1b6981611d9e238bf9369f6581fe655a41f1a13d7f4fa97644d2f7f01ed2456"
+      url "https://github.com/drewpayment/gh-memory-bank/releases/download/v0.0.4/gh-memory-bank_0.0.4_linux_arm64.tar.gz"
+      sha256 "9ace5daeb47b71f4a2c469713c43432d77a143b4d61240f3e913fc90fae336ed"
     end
   end
 
